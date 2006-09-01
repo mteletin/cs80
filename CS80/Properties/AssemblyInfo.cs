@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "n80" )]
-[assembly: AssemblyDescription( "" )]
+[assembly: AssemblyTitle( "CS80" )]
+[assembly: AssemblyDescription( "A C# Z80 Emulator" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "n80" )]
-[assembly: AssemblyCopyright( "Copyright ©  2006" )]
+[assembly: AssemblyProduct( "CS80" )]
+[assembly: AssemblyCopyright( "Copyright ©  2006 Elfic One" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
 
