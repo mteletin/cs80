@@ -35,8 +35,15 @@
   <ItemGroup>
     <Compile Include="CS80.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Z80.cs" />
-    <Compile Include="Z80Debug.cs" />
+    <Compile Include="cpu\Z80.cs" />
+    <Compile Include="cpu\Z80Debug.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cpm\" />
+    <Folder Include="disk\" />
+    <Folder Include="mmu\" />
+    <Folder Include="spectrum\" />
+    <Folder Include="vdu\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
